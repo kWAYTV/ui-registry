@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "@aris-sh/registry",
-  "homepage": "https://banz.club",
+  "homepage": "https://aris.sh",
   "items": [
     {
       "name": "registry",
@@ -48,10 +48,10 @@
       "title": "Blank Starter",
       "description": "A blank application with all brand components and code",
       "registryDependencies": [
-        "https://banz.club/r/brand-header.json",
-        "https://banz.club/r/brand-sidebar.json",
-        "https://banz.club/r/product-grid.json",
-        "https://banz.club/r/theme.json"
+        "https://aris.sh/r/brand-header.json",
+        "https://aris.sh/r/brand-sidebar.json",
+        "https://aris.sh/r/product-grid.json",
+        "https://aris.sh/r/theme.json"
       ],
       "files": [
         {
@@ -72,10 +72,10 @@
       "title": "Dashboard Starter",
       "description": "A dashboard application with your brand themed components",
       "registryDependencies": [
-        "https://banz.club/r/sonner.json",
-        "https://banz.club/r/brand-header.json",
-        "https://banz.club/r/brand-sidebar.json",
-        "https://banz.club/r/theme.json"
+        "https://aris.sh/r/sonner.json",
+        "https://aris.sh/r/brand-header.json",
+        "https://aris.sh/r/brand-sidebar.json",
+        "https://aris.sh/r/theme.json"
       ],
       "files": [
         {
@@ -96,8 +96,8 @@
       "title": "Store Starter",
       "description": "A store application with your brand themed components",
       "registryDependencies": [
-        "https://banz.club/r/product-grid.json",
-        "https://banz.club/r/theme.json"
+        "https://aris.sh/r/product-grid.json",
+        "https://aris.sh/r/theme.json"
       ],
       "files": [
         {
@@ -122,9 +122,9 @@
         "input",
         "avatar",
         "sidebar",
-        "https://banz.club/r/sonner.json",
-        "https://banz.club/r/logo.json",
-        "https://banz.club/r/theme.json"
+        "https://aris.sh/r/sonner.json",
+        "https://aris.sh/r/logo.json",
+        "https://aris.sh/r/theme.json"
       ],
       "files": [
         {
@@ -152,8 +152,8 @@
         "badge",
         "button",
         "sidebar",
-        "https://banz.club/r/sonner.json",
-        "https://banz.club/r/theme.json"
+        "https://aris.sh/r/sonner.json",
+        "https://aris.sh/r/theme.json"
       ],
       "files": [
         {
@@ -180,8 +180,8 @@
       "registryDependencies": [
         "badge",
         "button",
-        "https://banz.club/r/theme.json",
-        "https://banz.club/r/logo.json"
+        "https://aris.sh/r/theme.json",
+        "https://aris.sh/r/logo.json"
       ],
       "files": [
         {
@@ -205,7 +205,7 @@
       "type": "registry:component",
       "title": "Brand Logo",
       "description": "A styled, simple, reusable logo",
-      "registryDependencies": ["https://banz.club/r/theme.json"],
+      "registryDependencies": ["https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/components/logo.tsx",
@@ -231,7 +231,7 @@
       "registryDependencies": [
         "badge",
         "button",
-        "https://banz.club/r/theme.json"
+        "https://aris.sh/r/theme.json"
       ],
       "files": [
         {
@@ -255,7 +255,7 @@
       "type": "registry:component",
       "title": "Promo",
       "description": "Attention-grabbing section to display the current promotional deal.",
-      "registryDependencies": ["button", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["button", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/components/promo.tsx",
@@ -278,7 +278,7 @@
       "type": "registry:component",
       "title": "Product Grid",
       "description": "Product grid displaying all products with API to fetch data",
-      "registryDependencies": ["https://banz.club/r/theme.json"],
+      "registryDependencies": ["https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/components/product-grid.tsx",
@@ -300,7 +300,7 @@
       "type": "registry:ui",
       "title": "Accordion",
       "description": "A vertically stacked set of interactive headings that each reveal a section of content.",
-      "registryDependencies": ["accordion", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["accordion", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -314,7 +314,7 @@
       "type": "registry:ui",
       "title": "Alert",
       "description": "Displays a callout for user attention.",
-      "registryDependencies": ["alert", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["alert", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -328,7 +328,7 @@
       "type": "registry:ui",
       "title": "Avatar",
       "description": "An image element with a fallback for representing the user.",
-      "registryDependencies": ["avatar", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["avatar", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -342,7 +342,7 @@
       "type": "registry:ui",
       "title": "Badge",
       "description": "Displays a small count or status indicator.",
-      "registryDependencies": ["badge", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["badge", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -356,7 +356,7 @@
       "type": "registry:ui",
       "title": "Breadcrumb",
       "description": "Displays the path to the current resource using a hierarchy of links.",
-      "registryDependencies": ["breadcrumb", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["breadcrumb", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -370,7 +370,7 @@
       "type": "registry:ui",
       "title": "Button",
       "description": "Allows users to take actions with a single click or tap.",
-      "registryDependencies": ["button", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["button", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -384,7 +384,7 @@
       "type": "registry:ui",
       "title": "Calendar",
       "description": "A date field component that allows users to enter and edit date.",
-      "registryDependencies": ["calendar", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["calendar", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -398,7 +398,7 @@
       "type": "registry:ui",
       "title": "Card",
       "description": "Containers for displaying content and actions about a single subject.",
-      "registryDependencies": ["card", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["card", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -412,7 +412,7 @@
       "type": "registry:ui",
       "title": "Chart",
       "description": "Beautiful charts. Built using Recharts. Copy and paste into your apps.",
-      "registryDependencies": ["chart", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["chart", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -426,7 +426,7 @@
       "type": "registry:ui",
       "title": "Checkbox",
       "description": "Allows users to select multiple items from a list of options.",
-      "registryDependencies": ["checkbox", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["checkbox", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -440,7 +440,7 @@
       "type": "registry:ui",
       "title": "Data Table",
       "description": "Powerful table and datagrids built using TanStack Table.",
-      "registryDependencies": ["data-table", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["data-table", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -454,7 +454,7 @@
       "type": "registry:ui",
       "title": "Date Picker",
       "description": "Displays the path to the current resource using a hierarchy of links.",
-      "registryDependencies": ["date-picker", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["date-picker", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -468,7 +468,7 @@
       "type": "registry:ui",
       "title": "Dialog",
       "description": "A modal dialog that interrupts the user with important content.",
-      "registryDependencies": ["dialog", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["dialog", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -482,10 +482,7 @@
       "type": "registry:ui",
       "title": "Dropdown",
       "description": "Displays a menu to the user triggered by a button.",
-      "registryDependencies": [
-        "dropdown-menu",
-        "https://banz.club/r/theme.json"
-      ],
+      "registryDependencies": ["dropdown-menu", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -499,7 +496,7 @@
       "type": "registry:ui",
       "title": "Input",
       "description": "Displays a form input field or a component that looks like an input field.",
-      "registryDependencies": ["input", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["input", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -513,7 +510,7 @@
       "type": "registry:ui",
       "title": "Menu Bar",
       "description": "A visually persistent menu common in desktop applications that provides quick access to a consistent set of commands.",
-      "registryDependencies": ["menu-bar", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["menu-bar", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -527,7 +524,7 @@
       "type": "registry:ui",
       "title": "Select",
       "description": "Displays a list of options for the user to pick from—triggered by a button.",
-      "registryDependencies": ["select", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["select", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -541,7 +538,7 @@
       "type": "registry:ui",
       "title": "Separator",
       "description": "Visually or semantically separates content.",
-      "registryDependencies": ["separator", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["separator", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -555,7 +552,7 @@
       "type": "registry:ui",
       "title": "Skeleton",
       "description": "Use to show a placeholder while content is loading.",
-      "registryDependencies": ["skeleton", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["skeleton", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -569,7 +566,7 @@
       "type": "registry:ui",
       "title": "Slider",
       "description": "An input where the user selects a value from within a given range.",
-      "registryDependencies": ["slider", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["slider", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -583,7 +580,7 @@
       "type": "registry:ui",
       "title": "Sonner",
       "description": "An opinionated toast component for React.",
-      "registryDependencies": ["sonner", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["sonner", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -602,7 +599,7 @@
       "type": "registry:ui",
       "title": "Switch",
       "description": "A control that allows the user to toggle between checked and not checked.",
-      "registryDependencies": ["switch", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["switch", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -616,7 +613,7 @@
       "type": "registry:ui",
       "title": "Table",
       "description": "A responsive table component.",
-      "registryDependencies": ["table", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["table", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -630,7 +627,7 @@
       "type": "registry:ui",
       "title": "Tabs",
       "description": "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
-      "registryDependencies": ["tabs", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["tabs", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -644,10 +641,7 @@
       "type": "registry:ui",
       "title": "Toggle Group",
       "description": "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
-      "registryDependencies": [
-        "toggle-group",
-        "https://banz.club/r/theme.json"
-      ],
+      "registryDependencies": ["toggle-group", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
@@ -661,7 +655,7 @@
       "type": "registry:ui",
       "title": "Tooltip",
       "description": "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
-      "registryDependencies": ["tooltip", "https://banz.club/r/theme.json"],
+      "registryDependencies": ["tooltip", "https://aris.sh/r/theme.json"],
       "files": [
         {
           "path": "src/app/starters/(minimal)/v0-layout.tsx",
