@@ -7,6 +7,7 @@ import { ComponentCard } from "@/components/design/component-card";
 import { Button } from "@/components/ui/button";
 import { env } from "@/env";
 import { getComponent } from "@/lib/utils";
+import { getBaseUrl } from "@/lib/vercel";
 
 export async function generateStaticParams() {
   return Object.keys(demos).map((slug) => ({
@@ -44,7 +45,7 @@ export default async function BlockPage({
 
       <ComponentCard
         name={block.name}
-        baseUrl={env.VERCEL_BRANCH_URL ?? ""}
+        baseUrl={getBaseUrl()}
         title="Block Preview"
         promptTitle={`${block.title} Block Kit`}
         components={components}

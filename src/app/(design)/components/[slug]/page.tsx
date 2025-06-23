@@ -7,6 +7,7 @@ import { ComponentCard } from "@/components/design/component-card";
 import { Button } from "@/components/ui/button";
 import { env } from "@/env";
 import { getComponent } from "@/lib/utils";
+import { getBaseUrl } from "@/lib/vercel";
 
 export async function generateStaticParams() {
   return Object.keys(demos).map((slug) => ({
@@ -47,7 +48,7 @@ export default async function ComponentPage({
 
       <ComponentCard
         name={component.name}
-        baseUrl={env.VERCEL_BRANCH_URL ?? ""}
+        baseUrl={getBaseUrl()}
         title="Component Preview"
         promptTitle={`${component.title} Component Kit`}
         components={components}
