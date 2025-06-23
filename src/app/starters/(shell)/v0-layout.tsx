@@ -36,7 +36,7 @@ export default function RootLayout({
         GeistSans.variable,
         GeistMono.variable,
         MontserratSerif.variable,
-        "bg-background text-foreground",
+        "bg-background text-foreground"
       )}
     >
       <body>
@@ -46,7 +46,7 @@ export default function RootLayout({
           <main className="mt-16 flex w-full justify-center">
             <div className="container">{children}</div>
           </main>
-          <Toaster />
+          <Toaster richColors />
         </SidebarProvider>
       </body>
     </html>
