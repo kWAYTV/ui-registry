@@ -103,8 +103,8 @@ If you use `@font-face`, you will also need to modify [`tailwind.css`](src/app/t
 ## Running locally
 
 ```bash
-pnpm install
-pnpm dev
+bun install
+bun dev
 ```
 
 Your app should now be running on [localhost:3000](http://localhost:3000).
