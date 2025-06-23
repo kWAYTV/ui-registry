@@ -4,6 +4,7 @@ import type React from "react";
 
 import { ComponentCard } from "@/components/design/component-card";
 import { Button } from "@/components/ui/button";
+import { env } from "@/env";
 
 const starters = [
   {
@@ -42,7 +43,7 @@ export default function StartPage() {
           <ComponentCard
             key={starter.name}
             name={starter.name}
-            baseUrl={process.env.VERCEL_BRANCH_URL ?? ""}
+            baseUrl={env.VERCEL_BRANCH_URL ?? ""}
             title={starter.title}
             promptTitle={`${starter.title} Starter Kit`}
             previewUrl={starter.url}

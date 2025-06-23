@@ -9,6 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { env } from "@/env";
 
 const componentItems = [
   { name: "Accordion", path: "/components/accordion" },
@@ -143,7 +144,7 @@ export default function Home() {
             <code className="inline text-sm tabular-nums">tokens.css</code>
           </p>
 
-          <MCPTabs rootUrl={process.env.VERCEL_BRANCH_URL ?? ""} />
+          <MCPTabs rootUrl={env.VERCEL_BRANCH_URL ?? ""} />
         </div>
       </div>
     </main>

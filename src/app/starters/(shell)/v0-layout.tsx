@@ -36,7 +36,7 @@ export default function RootLayout({
         GeistSans.variable,
         GeistMono.variable,
         MontserratSerif.variable,
-        "bg-background text-foreground"
+        "bg-background text-foreground",
       )}
     >
       <body>
