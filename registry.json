@@ -1,6 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "Registry Starter",
+  "name": "@aris-sh/registry",
   "homepage": "https://registry-starter.vercel.app",
   "items": [
     {
