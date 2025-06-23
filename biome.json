@@ -1,6 +1,8 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.8.2/schema.json",
-  "organizeImports": { "enabled": true },
+  "organizeImports": {
+    "enabled": true
+  },
   "files": {
     "ignore": [
       "node_modules",
@@ -31,7 +33,7 @@
       "arrowParentheses": "always",
       "bracketSameLine": false,
       "bracketSpacing": true,
-      "jsxQuoteStyle": "double",
+      "jsxQuoteStyle": "single",
       "quoteProperties": "asNeeded",
       "semicolons": "always",
       "trailingCommas": "all"

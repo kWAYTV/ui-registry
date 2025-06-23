@@ -30,8 +30,8 @@ export const datePicker = {
             {date ? format(date, "PPP") : <span>Pick a date</span>}
           </Button>
         </PopoverTrigger>
-        <PopoverContent className="w-auto p-0">
-          <Calendar mode="single" initialFocus />
+        <PopoverContent className='w-auto p-0'>
+          <Calendar mode='single' initialFocus />
         </PopoverContent>
       </Popover>
     ),

@@ -55,14 +55,14 @@ export function BarChartComponent() {
           <BarChart accessibilityLayer data={chartData}>
             <CartesianGrid vertical={false} />
             <XAxis
-              dataKey="month"
+              dataKey='month'
               tickMargin={10}
               tickFormatter={(value) => value.slice(0, 3)}
             />
             <ChartTooltip content={<ChartTooltipContent />} />
             <ChartLegend content={<ChartLegendContent />} />
-            <Bar dataKey="desktop" fill="var(--color-desktop)" radius={4} />
-            <Bar dataKey="mobile" fill="var(--color-mobile)" radius={4} />
+            <Bar dataKey='desktop' fill='var(--color-desktop)' radius={4} />
+            <Bar dataKey='mobile' fill='var(--color-mobile)' radius={4} />
           </BarChart>
         </ChartContainer>
       </CardContent>

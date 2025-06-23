@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang='en'
       className={cn(
         GeistSans.variable,
         GeistMono.variable,
@@ -37,8 +37,8 @@ export default function RootLayout({
       )}
     >
       <body>
-        <main className="mt-16 flex w-full justify-center">
-          <div className="container">{children}</div>
+        <main className='mt-16 flex w-full justify-center'>
+          <div className='container'>{children}</div>
         </main>
       </body>
     </html>

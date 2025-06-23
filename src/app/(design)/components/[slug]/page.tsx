@@ -31,16 +31,16 @@ export default async function ComponentPage({
   const { components } = demos[slug];
 
   return (
-    <div className="container p-5 md:p-10">
-      <div className="mb-6 flex items-center justify-between">
+    <div className='container p-5 md:p-10'>
+      <div className='mb-6 flex items-center justify-between'>
         <div>
-          <Button variant="ghost" size="sm" asChild className="mb-4">
-            <Link href="/">
-              <ArrowLeft className="mr-2 size-4" />
+          <Button variant='ghost' size='sm' asChild className='mb-4'>
+            <Link href='/'>
+              <ArrowLeft className='mr-2 size-4' />
               Back to Home
             </Link>
           </Button>
-          <h1 className="font-bold text-3xl tracking-tight">
+          <h1 className='font-bold text-3xl tracking-tight'>
             {component.title}
           </h1>
         </div>
@@ -49,7 +49,7 @@ export default async function ComponentPage({
       <ComponentCard
         name={component.name}
         baseUrl={getBaseUrl()}
-        title="Component Preview"
+        title='Component Preview'
         promptTitle={`${component.title} Component Kit`}
         components={components}
       />

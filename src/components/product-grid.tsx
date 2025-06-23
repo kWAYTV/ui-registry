@@ -19,12 +19,12 @@ export default function ProductGrid({
     : products;
 
   return (
-    <div className="space-y-6">
-      <div className="flex flex-wrap gap-2">
+    <div className='space-y-6'>
+      <div className='flex flex-wrap gap-2'>
         <Button
           variant={selectedCategory === null ? "default" : "outline"}
           onClick={() => setSelectedCategory(null)}
-          className="rounded-full"
+          className='rounded-full'
         >
           All
         </Button>
@@ -34,33 +34,33 @@ export default function ProductGrid({
             key={category}
             variant={selectedCategory === category ? "default" : "outline"}
             onClick={() => setSelectedCategory(category)}
-            className="rounded-full"
+            className='rounded-full'
           >
             {category}
           </Button>
         ))}
       </div>
 
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
         {filteredProducts.map((product) => (
-          <Card key={product.id} className="overflow-hidden p-0">
+          <Card key={product.id} className='overflow-hidden p-0'>
             <Link href={`/products/${product.id}`}>
-              <div className="flex aspect-square items-center justify-center bg-white p-6" />
+              <div className='flex aspect-square items-center justify-center bg-white p-6' />
             </Link>
 
-            <CardContent className="p-4">
+            <CardContent className='p-4'>
               <Link href={`/products/${product.id}`}>
-                <h3 className="font-semibold">{product.name}</h3>
-                <p className="line-clamp-2 text-gray-500 text-sm">
+                <h3 className='font-semibold'>{product.name}</h3>
+                <p className='line-clamp-2 text-gray-500 text-sm'>
                   {product.description}
                 </p>
               </Link>
             </CardContent>
 
-            <CardFooter className="flex items-center justify-between p-4 pt-0">
-              <div className="font-semibold">${product.price.toFixed(2)}</div>
-              <Button size="sm">
-                <ShoppingCart className="mr-2 size-4" /> Add
+            <CardFooter className='flex items-center justify-between p-4 pt-0'>
+              <div className='font-semibold'>${product.price.toFixed(2)}</div>
+              <Button size='sm'>
+                <ShoppingCart className='mr-2 size-4' /> Add
               </Button>
             </CardFooter>
           </Card>

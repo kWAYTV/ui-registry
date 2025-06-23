@@ -16,22 +16,22 @@ export function AddToCursor({
 
   return (
     <Button
-      size="sm"
-      className="bg-black text-white hover:bg-black hover:shadow-sm dark:bg-white dark:text-black dark:hover:bg-white"
+      size='sm'
+      className='bg-black text-white hover:bg-black hover:shadow-sm dark:bg-white dark:text-black dark:hover:bg-white'
       asChild
     >
       <Link href={generateCursorDeeplink()}>
         <img
-          src="https://cursor.com/deeplink/mcp-install-light.svg"
-          alt="Add shadcn/ui Registry MCP server to Cursor"
-          height="80"
-          className="hidden dark:block"
+          src='https://cursor.com/deeplink/mcp-install-light.svg'
+          alt='Add shadcn/ui Registry MCP server to Cursor'
+          height='80'
+          className='hidden dark:block'
         />
         <img
-          src="https://cursor.com/deeplink/mcp-install-dark.svg"
-          alt="Add shadcn/ui Registry MCP server to Cursor"
-          height="80"
-          className="block dark:hidden"
+          src='https://cursor.com/deeplink/mcp-install-dark.svg'
+          alt='Add shadcn/ui Registry MCP server to Cursor'
+          height='80'
+          className='block dark:hidden'
         />
       </Link>
     </Button>

@@ -5,17 +5,17 @@ export const avatar = {
   components: {
     Default: (
       <Avatar>
-        <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-        <AvatarFallback className="bg-primary text-primary-foreground">
-          <span className="text-xs">CN</span>
+        <AvatarImage src='https://github.com/shadcn.png' alt='@shadcn' />
+        <AvatarFallback className='bg-primary text-primary-foreground'>
+          <span className='text-xs'>CN</span>
         </AvatarFallback>
       </Avatar>
     ),
     Fallback: (
       <Avatar>
-        <AvatarImage src="https://github.com" alt="@shadcn" />
-        <AvatarFallback className="bg-primary text-primary-foreground">
-          <span className="text-xs">CN</span>
+        <AvatarImage src='https://github.com' alt='@shadcn' />
+        <AvatarFallback className='bg-primary text-primary-foreground'>
+          <span className='text-xs'>CN</span>
         </AvatarFallback>
       </Avatar>
     ),

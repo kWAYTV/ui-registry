@@ -93,10 +93,10 @@ export const menuBar = {
         <MenubarMenu>
           <MenubarTrigger>Profiles</MenubarTrigger>
           <MenubarContent>
-            <MenubarRadioGroup value="benoit">
-              <MenubarRadioItem value="andy">Andy</MenubarRadioItem>
-              <MenubarRadioItem value="benoit">Benoit</MenubarRadioItem>
-              <MenubarRadioItem value="Luis">Luis</MenubarRadioItem>
+            <MenubarRadioGroup value='benoit'>
+              <MenubarRadioItem value='andy'>Andy</MenubarRadioItem>
+              <MenubarRadioItem value='benoit'>Benoit</MenubarRadioItem>
+              <MenubarRadioItem value='Luis'>Luis</MenubarRadioItem>
             </MenubarRadioGroup>
             <MenubarSeparator />
             <MenubarItem inset>Edit...</MenubarItem>

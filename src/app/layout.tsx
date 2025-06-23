@@ -37,7 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang='en'
       className={cn(
         GeistSans.variable,
         GeistMono.variable,
@@ -46,10 +46,10 @@ export default function RootLayout({
       )}
     >
       <meta
-        name="robots"
-        content="noindex, nofollow, noarchive, nosnippet, noimageindex"
+        name='robots'
+        content='noindex, nofollow, noarchive, nosnippet, noimageindex'
       />
-      <body className="flex grow">
+      <body className='flex grow'>
         {children}
         <Analytics />
         <SpeedInsights />

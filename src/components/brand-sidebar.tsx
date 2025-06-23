@@ -60,22 +60,22 @@ export function BrandSidebar({
     {
       title: "Home",
       href: "#",
-      icon: <Home className="size-4" />,
+      icon: <Home className='size-4' />,
     },
     {
       title: "Projects",
       href: "#projects",
-      icon: <LayoutGrid className="size-4" />,
+      icon: <LayoutGrid className='size-4' />,
     },
     {
       title: "Databases",
       href: "#databases",
-      icon: <Database className="size-4" />,
+      icon: <Database className='size-4' />,
     },
     {
       title: "Tables",
       href: "#tables",
-      icon: <Table className="size-4" />,
+      icon: <Table className='size-4' />,
       badge: {
         text: "Beta",
       },
@@ -83,7 +83,7 @@ export function BrandSidebar({
     {
       title: "AI",
       href: "#ai",
-      icon: <MessageSquareText className="size-4" />,
+      icon: <MessageSquareText className='size-4' />,
       badge: {
         text: "Alpha",
       },
@@ -94,27 +94,27 @@ export function BrandSidebar({
     {
       title: "Alerts",
       href: "#alerts",
-      icon: <AlertTriangle className="size-4" />,
+      icon: <AlertTriangle className='size-4' />,
     },
     {
       title: "Analytics",
       href: "#analytics",
-      icon: <BarChart2 className="size-4" />,
+      icon: <BarChart2 className='size-4' />,
     },
     {
       title: "History",
       href: "#history",
-      icon: <Clock className="size-4" />,
+      icon: <Clock className='size-4' />,
     },
     {
       title: "More",
       href: "#more",
-      icon: <MoreHorizontal className="size-4" />,
+      icon: <MoreHorizontal className='size-4' />,
     },
   ];
 
   return (
-    <Sidebar variant="sidebar" collapsible="icon" className="mt-16">
+    <Sidebar variant='sidebar' collapsible='icon' className='mt-16'>
       <SidebarHeader>
         <div className={cn(isCollapsed ? "py-2" : "p-2")}>
           <Button className={cn(isCollapsed ? "h-8 w-8 p-0" : "w-full")}>

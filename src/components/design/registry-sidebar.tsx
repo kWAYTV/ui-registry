@@ -84,9 +84,9 @@ export function MobileSidebarTrigger() {
   const { setOpenMobile } = useSidebar();
 
   return (
-    <div className="absolute top-8 right-4 md:hidden">
-      <Button aria-label="Open menu" onClick={() => setOpenMobile(true)}>
-        <Menu className="size-5" />
+    <div className='absolute top-8 right-4 md:hidden'>
+      <Button aria-label='Open menu' onClick={() => setOpenMobile(true)}>
+        <Menu className='size-5' />
       </Button>
     </div>
   );
@@ -120,28 +120,28 @@ export function RegistrySidebar() {
   }, [searchTerm]);
 
   return (
-    <Sidebar collapsible="icon">
-      <SidebarHeader className="border-b">
-        <div className="flex items-center justify-between px-2 py-2">
-          <Link href="/" className="flex min-w-0 items-center gap-2">
+    <Sidebar collapsible='icon'>
+      <SidebarHeader className='border-b'>
+        <div className='flex items-center justify-between px-2 py-2'>
+          <Link href='/' className='flex min-w-0 items-center gap-2'>
             <RegistryLogo />
           </Link>
 
           <Button
-            variant="ghost"
-            className="md:hidden"
+            variant='ghost'
+            className='md:hidden'
             onClick={() => setOpenMobile(false)}
           >
             <X />
           </Button>
         </div>
-        <div className="px-2 py-2 opacity-100 transition-all duration-200">
-          <div className="relative">
-            <Search className="absolute top-2.5 left-2.5 size-4 text-muted-foreground" />
+        <div className='px-2 py-2 opacity-100 transition-all duration-200'>
+          <div className='relative'>
+            <Search className='absolute top-2.5 left-2.5 size-4 text-muted-foreground' />
             <Input
-              type="search"
-              placeholder="Search..."
-              className="pl-8"
+              type='search'
+              placeholder='Search...'
+              className='pl-8'
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
@@ -150,18 +150,18 @@ export function RegistrySidebar() {
       </SidebarHeader>
 
       <SidebarContent>
-        <ScrollArea className="h-full w-full pr-2">
-          <Collapsible defaultOpen={true} className="group/collapsible">
+        <ScrollArea className='h-full w-full pr-2'>
+          <Collapsible defaultOpen={true} className='group/collapsible'>
             <SidebarGroup>
-              <CollapsibleTrigger className="w-full">
-                <SidebarGroupLabel className="flex cursor-pointer items-center justify-between">
-                  <div className="flex min-w-0 items-center">
-                    <Home className="size-4 flex-shrink-0" />
-                    <span className="ml-2 opacity-100 transition-all duration-200">
+              <CollapsibleTrigger className='w-full'>
+                <SidebarGroupLabel className='flex cursor-pointer items-center justify-between'>
+                  <div className='flex min-w-0 items-center'>
+                    <Home className='size-4 flex-shrink-0' />
+                    <span className='ml-2 opacity-100 transition-all duration-200'>
                       Getting Started
                     </span>
                   </div>
-                  <ChevronDown className="size-4 flex-shrink-0 opacity-100 transition-all duration-200 group-data-[state=open]/collapsible:rotate-180" />
+                  <ChevronDown className='size-4 flex-shrink-0 opacity-100 transition-all duration-200 group-data-[state=open]/collapsible:rotate-180' />
                 </SidebarGroupLabel>
               </CollapsibleTrigger>
 
@@ -189,17 +189,17 @@ export function RegistrySidebar() {
             </SidebarGroup>
           </Collapsible>
 
-          <Collapsible defaultOpen={true} className="group/collapsible">
+          <Collapsible defaultOpen={true} className='group/collapsible'>
             <SidebarGroup>
-              <CollapsibleTrigger className="w-full">
-                <SidebarGroupLabel className="flex cursor-pointer items-center justify-between">
-                  <div className="flex min-w-0 items-center">
-                    <Blocks className="size-4 flex-shrink-0" />
-                    <span className="ml-2 transition-all duration-200">
+              <CollapsibleTrigger className='w-full'>
+                <SidebarGroupLabel className='flex cursor-pointer items-center justify-between'>
+                  <div className='flex min-w-0 items-center'>
+                    <Blocks className='size-4 flex-shrink-0' />
+                    <span className='ml-2 transition-all duration-200'>
                       Blocks
                     </span>
                   </div>
-                  <ChevronDown className="size-4 flex-shrink-0 transition-all duration-200 group-data-[state=open]/collapsible:rotate-180" />
+                  <ChevronDown className='size-4 flex-shrink-0 transition-all duration-200 group-data-[state=open]/collapsible:rotate-180' />
                 </SidebarGroupLabel>
               </CollapsibleTrigger>
 
@@ -227,17 +227,17 @@ export function RegistrySidebar() {
             </SidebarGroup>
           </Collapsible>
 
-          <Collapsible defaultOpen={true} className="group/collapsible">
+          <Collapsible defaultOpen={true} className='group/collapsible'>
             <SidebarGroup>
-              <CollapsibleTrigger className="w-full">
-                <SidebarGroupLabel className="flex cursor-pointer items-center justify-between">
-                  <div className="flex min-w-0 items-center">
-                    <ToyBrick className="size-4 flex-shrink-0" />
-                    <span className="ml-2 transition-all duration-200">
+              <CollapsibleTrigger className='w-full'>
+                <SidebarGroupLabel className='flex cursor-pointer items-center justify-between'>
+                  <div className='flex min-w-0 items-center'>
+                    <ToyBrick className='size-4 flex-shrink-0' />
+                    <span className='ml-2 transition-all duration-200'>
                       Components
                     </span>
                   </div>
-                  <ChevronDown className="size-4 flex-shrink-0 transition-all duration-200 group-data-[state=open]/collapsible:rotate-180" />
+                  <ChevronDown className='size-4 flex-shrink-0 transition-all duration-200 group-data-[state=open]/collapsible:rotate-180' />
                 </SidebarGroupLabel>
               </CollapsibleTrigger>
               <CollapsibleContent>
@@ -267,7 +267,7 @@ export function RegistrySidebar() {
       </SidebarContent>
 
       <SidebarFooter>
-        <div className="flex justify-end">
+        <div className='flex justify-end'>
           <ModeToggle />
         </div>
       </SidebarFooter>
