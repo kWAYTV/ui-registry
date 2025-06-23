@@ -10,7 +10,6 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { env } from "@/env";
-import { getBaseUrl } from "@/lib/vercel";
 
 const componentItems = [
   { name: "Accordion", path: "/components/accordion" },
@@ -145,7 +144,7 @@ export default function Home() {
             <code className='inline text-sm tabular-nums'>tokens.css</code>
           </p>
 
-          <MCPTabs rootUrl={getBaseUrl()} />
+          <MCPTabs rootUrl={env.NEXT_PUBLIC_REGISTRY_BASE_URL} />
         </div>
       </div>
     </main>
