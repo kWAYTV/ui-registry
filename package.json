@@ -6,8 +6,7 @@
     "dev": "npm run registry:build && next dev --turbopack",
     "build": "npm run registry:build && next build",
     "start": "next start",
-    "lint": "biome check",
-    "lint:fix": "biome check --write",
+    "lint": "biome check --write",
     "registry:build": "npx shadcn@latest build"
   },
   "dependencies": {
