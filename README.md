@@ -1,5 +1,5 @@
 <a href="https://aris.sh/">
-  <h1 align="center">Registry Starter</h1>
+  <h1 align="center">@aris-sh/registry</h1>
 </a>
 
 <p align="center">
@@ -68,37 +68,6 @@ For example, it looks like this:
       "files": []
     }
 ```
-
-#### Fonts
-
-To use custom fonts, you can either use [
-`next/font/google`](https://nextjs.org/docs/pages/getting-started/fonts#google-fonts) or the [
-`@font-face`](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face) CSS rule. For example, `fonts.css` might look
-like:
-
-```css
-@font-face {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm45xW5rygbi49c.woff2")
-      format("woff2"), url("https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm45xW5rygbj49c.woff")
-      format("woff");
-}
-
-@font-face {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  src: url("https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD-w.woff2")
-      format("woff2"), url("https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3g3D_w.woff")
-      format("woff");
-}
-```
-
-If you use `@font-face`, you will also need to modify [`tailwind.css`](src/app/tailwind.css) AND
-[`tailwind.config.ts`](src/app/tailwind.config.ts) to map your custom fonts to Tailwind. Refer to this
-[Tailwind documentation](https://tailwindcss.com/docs/font-family#customizing-your-theme)
 
 ## Running locally
 
