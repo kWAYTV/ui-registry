@@ -1,13 +1,11 @@
-import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Montserrat } from "next/font/google";
 import type { ReactNode } from "react";
 
 import { cn } from "@/lib/utils";
 
-import "@/app/tokens.css";
 import "@/app/tailwind.css";
+import "@/app/tokens.css";
 
 export const metadata: Metadata = {
   title: "aris-sh/registry",
@@ -37,23 +35,19 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang='en'
+      lang="en"
       className={cn(
         GeistSans.variable,
         GeistMono.variable,
         MontserratSerif.variable,
-        "bg-background text-foreground",
+        "bg-background text-foreground"
       )}
     >
       <meta
-        name='robots'
-        content='noindex, nofollow, noarchive, nosnippet, noimageindex'
+        name="robots"
+        content="noindex, nofollow, noarchive, nosnippet, noimageindex"
       />
-      <body className='flex grow'>
-        {children}
-        <Analytics />
-        <SpeedInsights />
-      </body>
+      <body className="flex grow">{children}</body>
     </html>
   );
 }
