@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ThemeProvider } from "next-themes";
 import { Geist, Geist_Mono, Montserrat } from "next/font/google";
 import type { ReactNode } from "react";
 
@@ -35,19 +36,24 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang='en'
+      lang="en"
+      suppressHydrationWarning
       className={cn(
         GeistSans.variable,
         GeistMono.variable,
         MontserratSerif.variable,
-        "bg-background text-foreground",
+        "bg-background text-foreground"
       )}
     >
       <meta
-        name='robots'
-        content='noindex, nofollow, noarchive, nosnippet, noimageindex'
+        name="robots"
+        content="noindex, nofollow, noarchive, nosnippet, noimageindex"
       />
-      <body className='flex grow'>{children}</body>
+      <body className="flex grow">
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
