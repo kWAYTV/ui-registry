@@ -5,8 +5,8 @@ export const hero = {
   components: {
     Default: (
       <Hero
-        title='Build a Registry'
-        description='This starter helps you create a registry so you can distribute your custom components, hooks, pages, and other files to any React project'
+        title='aris.sh Registry'
+        description='The aris.sh UI registry centralizes tokens, primitives, and components for reuse across apps and tooling.'
         buttonText='Learn more'
         buttonLink='#sale'
         backgroundImage='/assets/hero.png'

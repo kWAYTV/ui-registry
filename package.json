@@ -6,8 +6,9 @@
     "dev": "npm run registry:build && next dev --turbopack",
     "build": "npm run registry:build && next build",
     "start": "next start",
-    "lint": "biome check --write",
-    "registry:build": "npx shadcn@latest build"
+    "registry:build": "npx shadcn@latest build",
+    "format": "biome format --write",
+    "lint": "biome check --write"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.1",

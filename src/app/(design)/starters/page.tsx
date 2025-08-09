@@ -1,6 +1,5 @@
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
-import type React from "react";
 
 import { ComponentCard } from "@/components/design/component-card";
 import { Button } from "@/components/ui/button";
@@ -34,7 +33,7 @@ export default function StartPage() {
               Back to Home
             </Link>
           </Button>
-          <h1 className='font-bold text-3xl tracking-tight'>Starters</h1>
+          <h1 className='font-bold text-3xl tracking-tight'>Starter Kits</h1>
         </div>
       </div>
 

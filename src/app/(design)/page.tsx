@@ -107,22 +107,19 @@ export default function Home() {
         <div className='flex flex-col gap-2'>
           <h2 className='font-semibold text-xl'>About</h2>
           <p className='text-muted-foreground'>
-            This registry serves as a central repository for all UI components
-            and blocks used in your applications. It helps maintain consistency
-            across your products and speeds up development by providing
-            ready-to-use components. Each component and block is documented with
-            examples. You can browse components by category, search for specific
-            components, and view examples of how they are used in different
-            contexts.
+            The aris.sh registry is the canonical source for brand tokens,
+            primitives, and higher-level UI used across our products. Browse
+            components and blocks, inspect demos, and pipe items directly into
+            v0 for rapid scaffolding.
           </p>
           <p className='mt-2 text-muted-foreground'>
-            To get begin, select a{" "}
+            Get started by choosing a{" "}
             <a href='/starters' className='underline'>
-              starter
+              starter kit
             </a>{" "}
-            and click the <span className='font-bold'>Open in v0</span> button.
-            You can also open individual components or blocks in v0 if you want
-            a smaller or more specific starting point.
+            and clicking <span className='font-bold'>Open in v0</span>. You can
+            also open individual components or blocks in v0 for more focused
+            flows.
           </p>
         </div>
       </div>

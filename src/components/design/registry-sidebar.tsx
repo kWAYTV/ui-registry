@@ -36,7 +36,6 @@ import {
   SidebarMenuItem,
   useSidebar,
 } from "@/components/ui/sidebar";
-import type * as React from "react";
 
 export const componentItems = [
   { name: "Accordion", path: "/components/accordion" },
@@ -77,7 +76,7 @@ export const blockItems = [
 export const gettingStartedItems = [
   { name: "Home", path: "/" },
   { name: "Design Tokens", path: "/tokens" },
-  { name: "Starters", path: "/starters" },
+  { name: "Starter Kits", path: "/starters" },
 ];
 
 export function MobileSidebarTrigger() {

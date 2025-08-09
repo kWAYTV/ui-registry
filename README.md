@@ -3,11 +3,11 @@
 </a>
 
 <p align="center">
-    Registry Starter is a free, open-source template built with Next.js and Shadcn/ui Registry to accelerate your AI-Native Design System.
+    aris.sh registry is the official UI registry for aris.sh, built with Next.js and shadcn/ui. It powers component distribution, theming tokens, and v0 integration across projects.
 </p>
 
 <p align="center">
-  <a href="#deploy-your-own"><strong>Deploy Your Own</strong></a> ·
+  <a href="#about"><strong>About</strong></a> ·
   <a href="#open-in-v0"><strong>Open in v0</strong></a> ·
   <a href="#theming"><strong>Theming</strong></a> ·
   <a href="#running-locally"><strong>Running Locally</strong></a> ·
@@ -16,20 +16,15 @@
 </p>
 <br/>
 
-## Deploy Your Own
+## About
 
-You can deploy your own version of the Next.js Registry Starter to Vercel with one click:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fregistry-starter&project-name=my-registry&repository-name=my-registry&demo-title=Registry%20Starter&demo-description=Registry%20Starter%20is%20a%20free%2C%20open-source%20template%20built%20with%20Next.js%20and%20Shadcn%2Fui%20Registry%20to%20accelerate%20your%20AI-Native%20Design%20System.&demo-url=https%3A%2F%2Faris.sh&demo-image=%2F%2Faris.sh%2Fpreview.png)
+The aris.sh registry centralizes brand tokens, base primitives, and higher-level components/blocks. It exposes machine-readable registry endpoints under `/r/*.json` that integrate with tools like v0 and MCP, enabling teams to scaffold apps and keep UI consistent.
 
 ## Open in v0
 
 [![Open in v0](https://aris.sh/open-in-v0.svg)](https://v0.dev/chat/api/open?title=Dashboard+Kit&prompt=These+are+existing+design+system+styles+and+files.+Please+utilize+them+alongside+base+components+to+build.&url=https%3A%2F%2Faris.sh%2Fr%2Fdashboard.json)
 
-This registry application also exposes `Open in v0` buttons for each component. Once this application is deployed, the
-`Open in v0` button redirects to [`v0.dev`](https://v0.dev) with a prepopulated prompt and a URL pointing back to this
-registry's `/r/${component_name}.json` endpoint. This endpoint will provide v0 the necessary file information, content,
-and metadata to start your v0 chat with your component, theme, and other related code.
+This registry exposes `Open in v0` buttons for each item. The button opens [`v0.dev`](https://v0.dev) with a pre-populated prompt and a URL back to this registry’s `/r/${component_name}.json` endpoint. That endpoint provides v0 the files, content, and metadata to start a v0 chat with your component/theme and related code.
 
 These `/r/${component_name}.json` files are generated using `shadcn/ui` during the `build` and `dev` based on the
 repository's [`registry.json`](./registry.json). For more information, refer to the
