@@ -6,7 +6,7 @@ export const alert = {
   components: {
     Default: (
       <Alert>
-        <Terminal className='size-4' />
+        <Terminal className="size-4" />
         <AlertTitle>Heads up!</AlertTitle>
         <AlertDescription>
           You can add components to your app using the cli.
@@ -14,8 +14,8 @@ export const alert = {
       </Alert>
     ),
     Destructive: (
-      <Alert variant='destructive'>
-        <AlertCircle className='size-4' />
+      <Alert variant="destructive">
+        <AlertCircle className="size-4" />
         <AlertTitle>Error</AlertTitle>
         <AlertDescription>
           Your session has expired. Please log in again.
