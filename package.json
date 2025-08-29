@@ -3,8 +3,8 @@
   "version": "0.0.4",
   "private": true,
   "scripts": {
-    "dev": "npm run registry:build && next dev --turbopack",
-    "build": "npm run registry:build && next build",
+    "dev": "bun run registry:build && next dev --turbopack",
+    "build": "bun run registry:build && next build",
     "start": "next start",
     "registry:build": "shadcn build",
     "format": "biome format --write",
