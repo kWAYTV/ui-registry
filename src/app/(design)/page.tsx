@@ -58,15 +58,14 @@ export default function Home() {
           <CardContent>
             <div className='space-y-2'>
               {componentItems.map((item) => (
-                <div
+                <Link
                   key={item.name}
-                  className='flex items-center justify-between'
+                  href={item.path}
+                  className='flex items-center justify-between text-sm'
                 >
-                  <Link href={item.path} className='text-sm hover:underline'>
-                    {item.name}
-                  </Link>
-                  <ArrowRight className='size-4 text-muted-foreground' />
-                </div>
+                  <span className='hover:underline'>{item.name}</span>
+                  <ArrowRight className='size-4 text-muted-foreground hover:underline' />
+                </Link>
               ))}
             </div>
           </CardContent>
@@ -88,15 +87,14 @@ export default function Home() {
           <CardContent>
             <div className='space-y-2'>
               {blockItems.map((item) => (
-                <div
+                <Link
                   key={item.name}
-                  className='flex items-center justify-between'
+                  href={item.path}
+                  className='flex items-center justify-between text-sm'
                 >
-                  <Link href={item.path} className='text-sm hover:underline'>
-                    {item.name}
-                  </Link>
-                  <ArrowRight className='size-4 text-muted-foreground' />
-                </div>
+                  <span className='hover:underline'>{item.name}</span>
+                  <ArrowRight className='size-4 text-muted-foreground hover:underline' />
+                </Link>
               ))}
             </div>
           </CardContent>
