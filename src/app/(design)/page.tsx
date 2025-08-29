@@ -1,4 +1,4 @@
-import { ArrowRight, Blocks, ToyBrick } from "lucide-react";
+import { ArrowRight, Blocks, Package, ToyBrick } from "lucide-react";
 import Link from "next/link";
 
 import { MCPTabs } from "@/components/design/mcp-tabs";
@@ -123,6 +123,76 @@ export default function Home() {
           </p>
         </div>
       </div>
+
+      <Card className='mb-4 shadow-none'>
+        <CardHeader className='space-y-1'>
+          <div className='flex items-center justify-between'>
+            <CardTitle className='flex items-center gap-2'>
+              <Package className='size-5' />
+              Shadcn/ui 3.0 Namespaced Registry
+            </CardTitle>
+            <div className='rounded-md bg-gradient-to-r from-blue-500 to-purple-600 p-1'>
+              <span className='px-1 font-bold text-white text-xs'>3.0</span>
+            </div>
+          </div>
+          <CardDescription>
+            This registry is fully prepared for shadcn/ui 3.0's namespaced
+            registry system
+          </CardDescription>
+        </CardHeader>
+
+        <CardContent>
+          <div className='space-y-4'>
+            <p className='text-muted-foreground text-sm'>
+              Use the new namespaced registry feature to install components
+              directly from this registry. Already configured in your{" "}
+              <code className='rounded bg-muted px-1 py-0.5 text-xs'>
+                components.json
+              </code>
+              .
+            </p>
+
+            <div className='space-y-2'>
+              <h4 className='font-medium text-sm'>Installation Examples:</h4>
+              <div className='space-y-1'>
+                <code className='block rounded bg-muted p-2 text-foreground text-xs'>
+                  npx shadcn@latest add @aris-sh/button
+                </code>
+                <code className='block rounded bg-muted p-2 text-foreground text-xs'>
+                  npx shadcn@latest add @aris-sh/card @aris-sh/hero
+                </code>
+                <code className='block rounded bg-muted p-2 text-foreground text-xs'>
+                  npx shadcn@latest add @aris-sh/brand-header
+                </code>
+              </div>
+            </div>
+
+            <div className='space-y-2'>
+              <h4 className='font-medium text-sm'>Features:</h4>
+              <ul className='space-y-1 text-muted-foreground text-xs'>
+                <li>• Decentralized namespace system - no central authority</li>
+                <li>
+                  • Multiple registry support for different resource types
+                </li>
+                <li>• Environment variable support for authentication</li>
+                <li>• Cross-registry dependency resolution</li>
+                <li>• Version pinning and semantic versioning</li>
+              </ul>
+            </div>
+
+            <div className='border-t pt-2'>
+              <p className='text-muted-foreground text-xs'>
+                <Link
+                  href='https://ui.shadcn.com/docs/registry/namespace'
+                  className='underline hover:text-foreground'
+                >
+                  Learn more about namespaced registries →
+                </Link>
+              </p>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
 
       <div className='rounded-lg border bg-card p-6'>
         <div className='flex flex-col gap-2'>
