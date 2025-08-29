@@ -6,7 +6,7 @@
     "dev": "npm run registry:build && next dev --turbopack",
     "build": "npm run registry:build && next build",
     "start": "next start",
-    "registry:build": "npx shadcn@latest build",
+    "registry:build": "shadcn build",
     "format": "biome format --write",
     "lint": "biome check --write"
   },
@@ -56,6 +56,7 @@
     "react-hook-form": "^7.62.0",
     "react-resizable-panels": "^3.0.5",
     "recharts": "^2.15.4",
+    "shadcn": "^2.9.3-canary.0",
     "sonner": "^2.0.7",
     "tailwind-merge": "^3.3.1",
     "vaul": "^1.1.2",
