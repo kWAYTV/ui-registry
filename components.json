@@ -19,6 +19,6 @@
   },
   "iconLibrary": "lucide",
   "registries": {
-    "@aris-sh/ui": "https://aris.sh/r/{name}.json"
+    "@aris-sh": "https://aris.sh/r/{name}.json"
   }
 }
