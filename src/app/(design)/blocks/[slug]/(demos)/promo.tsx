@@ -1,4 +1,4 @@
-import { Promo } from "@/components/promo";
+import { Promo } from "@/components/blocks/promo";
 
 export const promo = {
   name: "promo",

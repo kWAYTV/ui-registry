@@ -1,6 +1,6 @@
 "use client";
 
-import { Logo } from "@/components/logo";
+import { Logo } from "@/components/core/logo";
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import Link from "next/link";

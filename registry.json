@@ -185,7 +185,7 @@
       ],
       "files": [
         {
-          "path": "src/components/login.tsx",
+          "path": "src/components/blocks/login.tsx",
           "type": "registry:component"
         },
         {
@@ -235,7 +235,7 @@
       ],
       "files": [
         {
-          "path": "src/components/hero.tsx",
+          "path": "src/components/blocks/hero.tsx",
           "type": "registry:component"
         },
         {
@@ -258,7 +258,7 @@
       "registryDependencies": ["button", "https://aris.sh/r/theme.json"],
       "files": [
         {
-          "path": "src/components/promo.tsx",
+          "path": "src/components/blocks/promo.tsx",
           "type": "registry:component"
         },
         {
@@ -281,7 +281,7 @@
       "registryDependencies": ["https://aris.sh/r/theme.json"],
       "files": [
         {
-          "path": "src/components/product-grid.tsx",
+          "path": "src/components/blocks/product-grid.tsx",
           "type": "registry:component"
         },
         {

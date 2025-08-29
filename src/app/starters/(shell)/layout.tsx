@@ -1,7 +1,7 @@
-import React, { type ReactNode } from "react";
+import type { ReactNode } from "react";
 
-import { BrandHeader } from "@/components/brand-header";
-import { BrandSidebar } from "@/components/brand-sidebar";
+import { BrandHeader } from "@/components/core/brand-header";
+import { BrandSidebar } from "@/components/core/brand-sidebar";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { Toaster } from "@/components/ui/sonner";
 

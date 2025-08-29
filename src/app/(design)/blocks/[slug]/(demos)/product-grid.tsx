@@ -1,4 +1,4 @@
-import ProductGrid from "@/components/product-grid";
+import ProductGrid from "@/components/blocks/product-grid";
 import { getCategories, getProducts } from "@/lib/products";
 
 const products = await getProducts();
